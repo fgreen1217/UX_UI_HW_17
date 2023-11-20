@@ -4,28 +4,35 @@
 }
 
 .inline-block.logo{
-    width:6%;
+    width:4%;
     padding:1%;
     text-align:center;
 }
 
 .navigation{
+    display:flex;
+    align-items:center;
     background-color:#F8F9F4;
 }
 
 nav{
-    background-color:red;
-    width:89.5%;
-    padding:1%
+    width:71%;
 }
 
 .inline-block ul{
-    margin-left:auto;
-    width:50%
+    display:flex;
+    justify-content:flex-end;
+    
 }
 
+nav il{
+    font-family: 'Montserrat', sans-serif;
+    padding-left:50px;
+    padding-right:20px
+    
+}
 section{
-    background-color:#F8F9F4
+    background-color:#F9F4
 }
 
 .heroimg{
@@ -41,5 +48,15 @@ section{
 footer{
     background-color:#373738;
     padding:5px
+}
+
+.logo-text{
+    font-family: 'Montserrat', sans-serif;
+    color:#18272F;
+    font-size: 15px;
+}
+
+.navigation{
+    
 }
 
