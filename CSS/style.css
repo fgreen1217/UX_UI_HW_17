@@ -5,8 +5,9 @@
 }
 
 .navigation{
-    background-color:#EBECE9
+    background-color:#EBECE9;
 }
+
 
 .logo{
     width:23%;
@@ -64,8 +65,7 @@ nav il{
 
 .Content{
     background-color:#EBECE9;
-    display:inline-flex;
-    padding:100
+    display:flex
 }
 
 .Content img{
@@ -123,4 +123,8 @@ footer ul{
     display: flex;
     justify-content:space-around;
     
+}
+
+.history{
+    display:inline-block
 }
